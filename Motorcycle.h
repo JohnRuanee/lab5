@@ -45,8 +45,8 @@ class Motorcycle {
     void setLisencePlate(string lp);
     string getType();
     void setType(string t);
-    string getFuelType();
-    void setFuelType(string ft);
+    string getFuel();
+    void setFuel(string ft);
 
 
 };

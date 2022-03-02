@@ -40,10 +40,10 @@ void Motorcycle::setType(string t) {
             type = t;
         }
 }
-string Motorcycle::getFuelType() {
+string Motorcycle::getFuel() {
     return fuelType;
 }
-void Motorcycle::setFuelType(string ft) {
+void Motorcycle::setFuel(string ft) {
     if (ft == "87 unleaded"||ft=="91 unleaded"||ft == "93 unleaded"||ft == "diesel") {
             fuelType = ft;
     }
