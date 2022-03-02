@@ -3,11 +3,14 @@
 #include "Car.h"
 #include "Lev.h"
 #include "Invoice.h"
+#include "Employees.h"
+#include "Visitors.h"
+#include "Trucks.h"
+#include "Motorcycle.h"
 
 using namespace std;
 
 int main(){
-  string customer;
 
   string input;
   int intInput;
@@ -15,29 +18,40 @@ int main(){
 
 
 
-  if (input == "Visitor"){
+  cin >> input;
+  if(input == "employee"){
+    Employees customer = Employees();
+  } else if(input == "student"){
+    Visitors customer = Visitors();
+  } /*else if(input == "visitor"){
+    Truck vehicle = Truck();
+  } else if(input == "vendor"){
+    Motercycle car = Motorcycle();
+  }*/
 
-    cout << "Name: " << endl;
-    cin >> userN;
-    cout << "Address: " << endl;
-    cin >> userA;
-    cout << "Email: " << endl;
-    cin >> userE;
-    cout >> "Intent of Visit: "
-
-
-  }
+  cin >> input;
+  customer.setName(input);
+  cin >> input;
+  customer.setAddress(input);
+  cin >> intInput;
+  customer.setEmail(input);
+  cin >> input;
+  customer.setPermitType(intInput);
+  cin >> intInput;
+  vehicle.setAttribute1(intInput);
+  cin >> intInput;
+  vehicle.setAttribute2(intInput);
 
 
 
   cin >> input;
-  if(input == car){
+  if(input == "car"){
     Car vehicle = Car();
-  } else if(input == lev){
+  } else if(input == "lev"){
     Lev vehicle = Lev();
-  } else if(input == truck){
+  } else if(input == "truck"){
     Truck vehicle = Truck();
-  } else if(input == motorcycle){
+  } else if(input == "motorcycle"){
     Motercycle car = Motorcycle();
   }
 
