@@ -9,10 +9,10 @@ using namespace std;
 int main(){
   string customer;
 
-  string name, adress, emails;
-  string vehicle, make, model;
-  int year, a1, a2, a3, a4;
+  string input;
+  int input2;
 
+  if(input)
 
 
 
