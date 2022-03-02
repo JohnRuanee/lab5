@@ -41,8 +41,8 @@ class Trucks {
     void setLisencePlate(string lp);
     int getAttribute1();
     void setAttribute1(int w);
-    int getFuel();
-    void setFuel(int l);
+    int getAttribute1();
+    void setAttribute1(int l);
 };
 
 #endif
