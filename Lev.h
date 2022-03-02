@@ -22,15 +22,15 @@ public:
   string getModel();
   int getYear();
   string getLisencePlate();
-  string getType();
-  string getFuel();
+  string getAttribute1();
+  string getAttribute1();
 
   void setMake(string);
   void setModel(string);
   void setYear(int);
   void setLisencePlate(string);
-  void setType(string);
-  void setFuel(string);
+  void setAttribute1(string);
+  void setAttribute1(string);
 
 
 };

@@ -32,19 +32,19 @@ string Motorcycle::getLisencePlate() {
 void Motorcycle::setLisencePlate(string lp) {
     lisencePlate = lp;
 }
-string Motorcycle::getType() {
+string Motorcycle::getAttribute1() {
     return type;
 }
-void Motorcycle::setType(string t) {
+void Motorcycle::setAttribute1(string t) {
     if (t=="motorcycle"||t=="scooter") {
             type = t;
         }
 }
-string Motorcycle::getFuel() {
-    return fuelType;
+string Motorcycle::getAttribute1() {
+    return fuelAttribute1;
 }
-void Motorcycle::setFuel(string ft) {
+void Motorcycle::setAttribute1(string ft) {
     if (ft == "87 unleaded"||ft=="91 unleaded"||ft == "93 unleaded"||ft == "diesel") {
-            fuelType = ft;
+            fuelAttribute1 = ft;
     }
 }

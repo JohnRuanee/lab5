@@ -15,7 +15,7 @@ class Motorcycle {
     int year = 2020;
     string lisencePlate = "abc-123";
     string type = "motorcycle";
-    string fuelType = "87 unleaded";
+    string fuelAttribute1 = "87 unleaded";
 
     public:
 
@@ -31,7 +31,7 @@ class Motorcycle {
         }
 
         if (ft == "87 unleaded"||ft=="91 unleaded"||ft == "93 unleaded"||ft == "diesel") {
-            fuelType = ft;
+            fuelAttribute1 = ft;
         }
     }
 
@@ -43,10 +43,10 @@ class Motorcycle {
     void setYear(int y);
     string getLisencePlate();
     void setLisencePlate(string lp);
-    string getType();
-    void setType(string t);
-    string getFuel();
-    void setFuel(string ft);
+    string getAttribute1();
+    void setAttribute1(string t);
+    string getAttribute1();
+    void setAttribute1(string ft);
 
 
 };

@@ -50,7 +50,7 @@ int main(){
   cin >> input;
   vehicle.setLisencePlate(input);
   cin >> intInput;
-  vehicle.setType(intInput);
+  vehicle.setAttribute1(intInput);
   cin >> intInput;
   vehicle.setFuel(intInput);
 

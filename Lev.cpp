@@ -15,10 +15,10 @@ int Lev::getYear(){
 string Lev::getLisencePlate(){
   return lisencePlate;
 }
-string Lev::getType(){
+string Lev::getAttribute1(){
   return type;
 }
-string Lev::getFuel(){
+string Lev::getAttribute1(){
   return fuel;
 }
 
@@ -34,9 +34,9 @@ void Lev::setYear(int y){
 void Lev::setLisencePlate(string l){
   lisencePlate = l;
 }
-void Lev::setType(string t){
+void Lev::setAttribute1(string t){
   type = t;
 }
-void Lev::setFuel(string f){
+void Lev::setAttribute1(string f){
   fuel = f;
 }

@@ -15,10 +15,10 @@ int Car::getYear(){
 string Car::getLisencePlate(){
   return lisencePlate;
 }
-string Car::getType(){
+string Car::getAttribute1(){
   return type;
 }
-string Car::getFuel(){
+string Car::getAttribute1(){
   return fuel;
 }
 
@@ -34,9 +34,9 @@ void Car::setYear(int y){
 void Car::setLisencePlate(string l){
   lisencePlate = l;
 }
-void Car::setType(string t){
+void Car::setAttribute1(string t){
   type = t;
 }
-void Car::setFuel(string f){
+void Car::setAttribute1(string f){
   fuel = f;
 }

@@ -40,22 +40,22 @@ void Trucks::setLisencePlate(string lp) {
     lisencePlate = lp;
 }
 
-int Trucks::getType() {
+int Trucks::getAttribute1() {
     return weight;
 }
 
-void Trucks::setType(int w) {
+void Trucks::setAttribute1(int w) {
 
     if (w>0) {
         weight = w;
     }
 }
 
-int Trucks::getFuel() {
+int Trucks::getAttribute1() {
     return length;
 }
 
-void Trucks::setFuel(int l) {
+void Trucks::setAttribute1(int l) {
     if (l>0) {
         length = l;
     }
