@@ -12,9 +12,6 @@ int main(){
   string input;
   int intInput;
 
-<<<<<<< HEAD
-  //test
-  if(input)
 
 
 
@@ -31,7 +28,7 @@ int main(){
 
   }
 
-=======
+
 
   cin >> input;
   if(input == car){
@@ -56,7 +53,5 @@ int main(){
   vehicle.setType(intInput);
   cin >> intInput;
   vehicle.setFuel(intInput);
-  
->>>>>>> d1354f3fd6b1ff9e72de8309c750769cd2b7dfcc
 
 }
