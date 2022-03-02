@@ -30,7 +30,7 @@ class Trucks {
             length = l;
         }
     }
-    
+
     string getMake();
     void setMake(string m1);
     string getModel();
@@ -39,10 +39,10 @@ class Trucks {
     void setYear(int y);
     string getLisencePlate();
     void setLisencePlate(string lp);
-    int getWeight();
-    void setWeight(int w);
-    int getLength();
-    void setLength(int l);
+    int getType();
+    void setType(int w);
+    int getFuel();
+    void setFuel(int l);
 };
 
 #endif

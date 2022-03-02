@@ -18,13 +18,13 @@ public:
   Employees();
   Employees(string n, string a, string e, int d, int l, int p) : name{n}, address{a}, email{e}, department{d}, location{l}, permit{p} {}
 
-  int getDepartment();
-  int getClassLocation();
+  int getAttribute1();
+  int getAttribute2();
   string getName();
   string getAddress();
   int getPermitType();
-  void setDepartment(string department);
-  void setClassLocation(string location);
+  void setAttribute1(string department);
+  void setAttribute1(string location);
   void setName(string name);
   void setAddress(string address);
   void setEmail(string email;);
