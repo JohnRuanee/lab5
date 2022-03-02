@@ -12,7 +12,7 @@ int main(){
   string input;
   int input2;
 
-  
+  if(input)
 
 
 
