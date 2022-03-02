@@ -45,8 +45,8 @@ class Motorcycle {
     void setLisencePlate(string lp);
     string getAttribute1();
     void setAttribute1(string t);
-    string getAttribute1();
-    void setAttribute1(string ft);
+    string getAttribute2();
+    void setAttribute2(string ft);
 
 
 };

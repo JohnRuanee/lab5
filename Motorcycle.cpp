@@ -40,10 +40,10 @@ void Motorcycle::setAttribute1(string t) {
             type = t;
         }
 }
-string Motorcycle::getAttribute1() {
+string Motorcycle::getAttribute2() {
     return fuelAttribute1;
 }
-void Motorcycle::setAttribute1(string ft) {
+void Motorcycle::setAttribute2(string ft) {
     if (ft == "87 unleaded"||ft=="91 unleaded"||ft == "93 unleaded"||ft == "diesel") {
             fuelAttribute1 = ft;
     }

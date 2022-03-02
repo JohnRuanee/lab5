@@ -18,7 +18,7 @@ string Lev::getLisencePlate(){
 string Lev::getAttribute1(){
   return type;
 }
-string Lev::getAttribute1(){
+string Lev::getAttribute2(){
   return fuel;
 }
 
@@ -37,6 +37,6 @@ void Lev::setLisencePlate(string l){
 void Lev::setAttribute1(string t){
   type = t;
 }
-void Lev::setAttribute1(string f){
+void Lev::setAttribute2(string f){
   fuel = f;
 }

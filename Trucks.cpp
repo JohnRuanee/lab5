@@ -51,11 +51,11 @@ void Trucks::setAttribute1(int w) {
     }
 }
 
-int Trucks::getAttribute1() {
+int Trucks::getAttribute2() {
     return length;
 }
 
-void Trucks::setAttribute1(int l) {
+void Trucks::setAttribute2(int l) {
     if (l>0) {
         length = l;
     }

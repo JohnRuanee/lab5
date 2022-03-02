@@ -18,7 +18,7 @@ string Car::getLisencePlate(){
 string Car::getAttribute1(){
   return type;
 }
-string Car::getAttribute1(){
+string Car::getAttribute2(){
   return fuel;
 }
 
@@ -37,6 +37,6 @@ void Car::setLisencePlate(string l){
 void Car::setAttribute1(string t){
   type = t;
 }
-void Car::setAttribute1(string f){
+void Car::setAttribute2(string f){
   fuel = f;
 }

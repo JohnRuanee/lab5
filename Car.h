@@ -23,14 +23,14 @@ public:
   int getYear();
   string getLisencePlate();
   string getAttribute1();
-  string getAttribute1();
+  string getAttribute2();
 
   void setMake(string);
   void setModel(string);
   void setYear(int);
   void setLisencePlate(string);
   void setAttribute1(string);
-  void setAttribute1(string);
+  void setAttribute2(string);
 
 
 };

@@ -52,6 +52,6 @@ int main(){
   cin >> intInput;
   vehicle.setAttribute1(intInput);
   cin >> intInput;
-  vehicle.setFuel(intInput);
+  vehicle.setAttribute2(intInput);
 
 }
