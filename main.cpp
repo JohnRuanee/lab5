@@ -87,4 +87,16 @@ int main(){
 
   invoice.calcTotalPrice();
 
+  // Output
+  cout << "Invoice " << endl;
+  cout << "Name: " << customer.getName() << endl;
+  cout << "Email: " << customer.getEmail(); << endl;
+  cout << "Make: " << vehicle.getMake() << endl;
+  cout << "Year: " << vehicle.getYear() << endl;
+  cout << "Permit Type: " << customer.getPermitType() << endl;
+  cout << "Permit Price: " << invoice.getPrice() << endl;
+  cout << "Service Charge: " << invoice.getCharge() << endl;
+  cout << "Discount: " << invoice.getDiscount() << endl;
+  cout << "Total Price: " << invoice.calcTotalPrice() << endl;
+
 }
