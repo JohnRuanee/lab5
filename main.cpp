@@ -24,9 +24,9 @@ int main(){
   } else if(input == "student"){
     Visitors customer = Visitors();
   } /*else if(input == "visitor"){
-    Truck vehicle = Truck();
+    Employees customer = Employees();
   } else if(input == "vendor"){
-    Motercycle car = Motorcycle();
+    Employees customer = Employees();
   }*/
 
   cin >> input;
