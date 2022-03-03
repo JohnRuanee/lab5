@@ -20,6 +20,7 @@ double Invoice::getPrice(){
   return price;
 }
 
-double Invoice::calcTotalPrice(int p, int d, int s){
-  return p *((100 - d)/10) + s;
+double Invoice::calcTotalPrice(){
+
+  return price *((100 - discount)/10) + charge;
 }

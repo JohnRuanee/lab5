@@ -14,6 +14,8 @@ int main(){
 
   string input;
   int intInput;
+  int discount = 0;
+  int serviceCharge = 0;
 
 
 
@@ -21,12 +23,15 @@ int main(){
   cin >> input;
   if(input == "employee"){
     Employees customer = Employees();
+    discount += 5;
   } else if(input == "student"){
     Visitors customer = Visitors();
   } /*else if(input == "visitor"){
     Employees customer = Employees();
+    serviceCharge += 5;
   } else if(input == "vendor"){
     Employees customer = Employees();
+    serviceCharge += 10;
   }*/
 
   cin >> input;
@@ -49,6 +54,7 @@ int main(){
     Car vehicle = Car();
   } else if(input == "lev"){
     Lev vehicle = Lev();
+    discount += 10;
   } else if(input == "truck"){
     Truck vehicle = Truck();
   } else if(input == "motorcycle"){
@@ -67,5 +73,18 @@ int main(){
   vehicle.setAttribute1(intInput);
   cin >> intInput;
   vehicle.setAttribute2(intInput);
+
+  int p;
+  if(customer.getPermitType() == 0){
+    p = 200;
+  } else if(customer.getPermitType() == 1){
+    p = 100;
+  } else if(customer.getPermitType() == 2){
+    p = 50;
+  }
+
+  Invoice invoice(p, discount, serviceCharge);
+
+  invoice.calcTotalPrice();
 
 }
