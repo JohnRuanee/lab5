@@ -7,6 +7,8 @@
 #include "Visitors.h"
 #include "Trucks.h"
 #include "Motorcycle.h"
+#include "student.h"
+#include "vendor.h"
 
 using namespace std;
 
