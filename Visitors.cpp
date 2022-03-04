@@ -13,10 +13,10 @@ string Visitors::getaddress()
 string Visitors::getEmail()
 { return email;}
 
-int Visitors::getIntentOfVisit()
+int Visitors::getAttribute1()
 { return intentOfVisit;}
 
-int Visitors::getTimeOfVisit()
+int Visitors::getAttribute2()
 { return timeOfVisit;}
 
 int Visitors::getPermitType()

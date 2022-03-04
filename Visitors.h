@@ -19,8 +19,8 @@ public:
   Visitors();
   Visitors(string n, string a, string e, int intent, int time, int p) : name{n}, address{a}, email{e}, intentOfVisit{intent}, timeOfVisit{time}, permit{p} {}
 
-  int getTimeOfVisit();
-  int getIntentOfVisit();
+  int getAttribute2();
+  int getAttribute1();
   string getName();
   string getAddress();
   int getPermitType();
