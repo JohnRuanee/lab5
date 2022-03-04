@@ -16,7 +16,7 @@ public:
 
 
   Employees();
-  Employees(string n, string a, string e, int d, int l, int p) : name{n}, address{a}, email{e}, department{d}, location{l}, permit{p} {}
+  Employees(string n, string a, string e, int d, int l, int p) : name(n), address(a), email(e), department(d), location(l), permit(p) {}
 
   int getAttribute1();
   int getAttribute2();
@@ -24,10 +24,11 @@ public:
   string getAddress();
   int getPermitType();
   void setAttribute1(string department);
-  void setAttribute1(string location);
+  void setAttribute2(string location);
   void setName(string name);
   void setAddress(string address);
-  void setEmail(string email;);
+  void setEmail(string email);
   void setPermitType(int permit);
 
 };
+#endif
