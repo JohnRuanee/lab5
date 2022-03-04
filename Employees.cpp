@@ -48,7 +48,7 @@ void Employees::setAttribute2(string l) {
   location = l;
 }
 
-void Employees::setPermitType(int permit) {
+void Employees::setPermitType(int p) {
 
   permit = p;
 }

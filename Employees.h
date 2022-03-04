@@ -30,7 +30,7 @@ public:
   void setName(string n);
   void setAddress(string a);
   void setEmail(string e);
-  void setPermitType(int permit);
+  void setPermitType(int p);
 
 };
 #endif
