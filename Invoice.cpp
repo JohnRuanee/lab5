@@ -21,6 +21,5 @@ double Invoice::getPrice(){
 }
 
 double Invoice::calcTotalPrice(){
-
   return price *((100 - discount)/10) + charge;
 }

@@ -18,32 +18,43 @@ int main(){
   int intInput;
   int discount = 0;
   int serviceCharge = 0;
+  int index;
+
+  string attributeCustomer1[] = {"department", "year", "intent of visit", "company number"};
+  string attributeCustomer2[] = {"location", "location of ", "intent of visit", "company number"};
+
+  string attributeVehicle[] = {"vehicle type", "weight", "fuel type", "length"};
 
 
 
-
+  cout << "Customer type: ";
   cin >> input;
   if(input == "employee"){
     Employees customer = Employees();
     discount += 5;
   } else if(input == "student"){
+    student customer = student();
+  } else if(input == "visitor"){
     Visitors customer = Visitors();
-  } /*else if(input == "visitor"){
-    Employees customer = Employees();
     serviceCharge += 5;
   } else if(input == "vendor"){
-    Employees customer = Employees();
+    vendor customer = vendor();
     serviceCharge += 10;
-  }*/
+  }
 
+  cout << "Name: ";
   cin >> input;
   customer.setName(input);
+  cout << "Address: ";
   cin >> input;
   customer.setAddress(input);
   cin >> intInput;
+  cout << "Email: ";
   customer.setEmail(input);
   cin >> input;
+  cout << "Permit type: ";
   customer.setPermitType(intInput);
+  cout << "Name: ";
   cin >> intInput;
   vehicle.setAttribute1(intInput);
   cin >> intInput;
@@ -54,25 +65,35 @@ int main(){
   cin >> input;
   if(input == "car"){
     Car vehicle = Car();
+    index = 0;
   } else if(input == "lev"){
     Lev vehicle = Lev();
+    index = 0;
     discount += 10;
   } else if(input == "truck"){
-    Truck vehicle = Truck();
+    Trucks vehicle = Trucks();
+    index = 1;
   } else if(input == "motorcycle"){
-    Motercycle car = Motorcycle();
+    Motorcycle car = Motorcycle();
+    index = 0;
   }
 
+  cout << "Make: ";
   cin >> input;
   vehicle.setMake(input);
+  cout << "Model: ";
   cin >> input;
   vehicle.setModel(input);
+  cout << "Year: ";
   cin >> intInput;
   vehicle.setYear(intInput);
+  cout << "Lisence plate: ";
   cin >> input;
   vehicle.setLisencePlate(input);
+  cout << "Enter " << attributeVehicle[index] << ": ";
   cin >> intInput;
   vehicle.setAttribute1(intInput);
+  cout << "Enter " << attributeVehicle[index + 2] << ": ";
   cin >> intInput;
   vehicle.setAttribute2(intInput);
 
