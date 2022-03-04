@@ -44,7 +44,7 @@ void Visitors::setAttribute1(int intent){
 
 void Visitors::setAttribute2(int t) {
 
-  timeOfVisit = time;
+  timeOfVisit = t;
 }
 
 void Visitors::setPermitType(int permit) {
