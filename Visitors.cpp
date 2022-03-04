@@ -47,7 +47,7 @@ void Visitors::setAttribute2(int t) {
   timeOfVisit = t;
 }
 
-void Visitors::setPermitType(int permit) {
+void Visitors::setPermitType(int p) {
 
   permit = p;
 }
