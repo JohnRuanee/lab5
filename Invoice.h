@@ -8,7 +8,7 @@ class Invoice {
     double price;
 
   public:
-    Invoice(): discount(0), charge(s0), price(0){};
+    Invoice(): discount(0), charge(0), price(0){};
     Invoice(double d, double c, double p): discount(d), charge(c), price(p){};
 
     void setDiscount(double);
@@ -21,3 +21,5 @@ class Invoice {
 
     double calcTotalPrice(int, int, int);
 };
+
+#endif

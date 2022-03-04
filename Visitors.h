@@ -32,3 +32,5 @@ public:
   void setPermitType(int permit);
 
 };
+
+#endif
