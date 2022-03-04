@@ -24,11 +24,11 @@ public:
   string getName();
   string getAddress();
   int getPermitType();
-  void setAttribute1(string department);
-  void setAttribute2(string location);
-  void setName(string name);
-  void setAddress(string address);
-  void setEmail(string email);
+  void setAttribute1(string d);
+  void setAttribute2(string l);
+  void setName(string n);
+  void setAddress(string a);
+  void setEmail(string e);
   void setPermitType(int permit);
 
 };

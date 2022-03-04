@@ -25,10 +25,10 @@ public:
   string getAddress();
   int getPermitType();
   void setAttribute1(int intent);
-  void setAttribute2(int timeOfVisit);
-  void setName(string name);
-  void setAddress(string address);
-  void setEmail(string email;);
+  void setAttribute2(int t);
+  void setName(string n);
+  void setAddress(string a);
+  void setEmail(string e;);
   void setPermitType(int permit);
 
 };
