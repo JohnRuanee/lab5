@@ -13,10 +13,10 @@ string Employees::getaddress()
 string Employees::getEmail()
 { return email;}
 
-int Employees::getAttribute1()
+string Employees::getAttribute1()
 { return department;}
 
-int Employees::getAttribute2()
+string Employees::getAttribute2()
 { return location;}
 
 int Employees::getPermitType()

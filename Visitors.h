@@ -29,7 +29,7 @@ public:
   void setAttribute2(int t);
   void setName(string n);
   void setAddress(string a);
-  void setEmail(string e;);
+  void setEmail(string e);
   void setPermitType(int permit);
 
 };
