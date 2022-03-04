@@ -23,6 +23,7 @@ public:
   int getAttribute1();
   string getName();
   string getAddress();
+  string getEmail();
   int getPermitType();
   void setAttribute1(int intent);
   void setAttribute2(int t);
