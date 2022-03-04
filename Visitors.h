@@ -24,7 +24,7 @@ public:
   string getName();
   string getAddress();
   int getPermitType();
-  void setAttribute1(int intentOfVisit);
+  void setAttribute1(int intent);
   void setAttribute2(int timeOfVisit);
   void setName(string name);
   void setAddress(string address);
