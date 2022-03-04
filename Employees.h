@@ -9,8 +9,8 @@ private:
   string name;
   string address;
   string email;
-  string department;
-  string location;
+  int department;
+  int location;
   int permit;
 
 public:
