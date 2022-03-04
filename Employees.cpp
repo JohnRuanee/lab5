@@ -13,10 +13,10 @@ string Employees::getaddress()
 string Employees::getEmail()
 { return email;}
 
-string Employees::getAttribute1()
+string Employees::getDepartment()
 { return department;}
 
-string Employees::getAttribute2()
+string Employees::getClassLocation()
 { return location;}
 
 int Employees::getPermitType()
@@ -38,12 +38,12 @@ void Employees::setEmail(string e){
   email = e;
 }
 
-void Employees::setAttribute1(string d){
+void Employees::setDepartment(string d){
 
   department = d;
 }
 
-void Employees::setAttribute2(string l) {
+void Employees::setClassLocation(string l) {
 
   location = l;
 }

@@ -37,12 +37,12 @@ void Visitors::setEmail(string e){
   email = e;
 }
 
-void Visitors::setAttribute1(int intent){
+void Visitors::setIntentOfVisit(int intent){
 
   intentOfVisit = intent;
 }
 
-void Visitors::setAttribute2(int t) {
+void Visitors::setTimeOfVisit(int t) {
 
   timeOfVisit = time;
 }

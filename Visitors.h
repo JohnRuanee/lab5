@@ -23,8 +23,8 @@ public:
   string getName();
   string getAddress();
   int getPermitType();
-  void setAttribute1(int intentOfVisit);
-  void setAttribute2(int timeOfVisit);
+  void setIntentOfVisit(int intentOfVisit);
+  void setTimeOfVisit(int timeOfVisit);
   void setName(string name);
   void setAddress(string address);
   void setEmail(string email;);
