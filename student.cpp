@@ -27,7 +27,7 @@ void Student::setAttribute2(int y){
 int Student::getAttribute1(){
   return onCampus;
 }
-int Student::setAttribute1(int oC){
+void Student::setAttribute1(int oC){
   onCampus = oC;
 }
 int Student::getPermitType(){
