@@ -13,6 +13,7 @@ class Student{
     int onCampus;
     int permitType;
   public:
+    Student();
     Student(string n, string a, string e, int y, bool oC, int p);
     string getName();
     void setName(string n);
