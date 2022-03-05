@@ -56,9 +56,9 @@ int main(){
   customer.setPermitType(intInput);
   cout << "Name: ";
   cin >> intInput;
-  vehicle.setAttribute1(intInput);
+  customer.setAttribute1(intInput);
   cin >> intInput;
-  vehicle.setAttribute2(intInput);
+  customer.setAttribute2(intInput);
 
 
 
