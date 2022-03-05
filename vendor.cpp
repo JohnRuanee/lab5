@@ -21,10 +21,10 @@ void Vendor::setEmail(string e){
 int Vendor::getAttribute2(){
   return company;
 }
-void Vendor::setAttribute2(int c){
+void Vendor::setAttribute1(int c){
   company = c;
 }
-int Vendor::getAttribute2(){
+int Vendor::getAttribute1(){
   return hoursOfOp;
 }
 void Vendor::setAttribute2(int h){

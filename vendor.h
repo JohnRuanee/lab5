@@ -19,8 +19,8 @@ class Vendor{
     void setAddress(string a);
     string getEmail();
     void setEmail(string e);
-    int getAttribute2();
-    void setAttribute2(int c);
+    int getAttribute1();
+    void setAttribute1(int c);
     int getAttribute2();
     void setAttribute2(int h);
     int getPermitType();
