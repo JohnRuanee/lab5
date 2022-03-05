@@ -22,7 +22,7 @@ int Visitors::getAttribute2()
 int Visitors::getPermitType()
 { return permit;}
 
-void Visitors::setName(string n) {
+void Visitors::setName(string n){
 
   name = n;
 }

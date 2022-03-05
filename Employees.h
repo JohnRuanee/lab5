@@ -1,6 +1,8 @@
 #ifndef EMPLOYEES_H_
 #define EMPLOYEES_H_
 
+using namespace std;
+
 class Employees {
 
 private:

@@ -1,6 +1,8 @@
 #ifndef VISITORS_H_
 #define VISITORS_H_
 
+using namespace std;
+
 class Visitors {
 
 private:
