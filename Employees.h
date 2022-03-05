@@ -17,7 +17,7 @@ public:
 
 
   Employees();
-  Employees(string n, string a, string e, string d, string l, int p) : name(n), address(a), email(e), department(d), location(l), permit(p) {};
+  Employees(string n, string a, string e, string d, string l, int p) : name(n), address(a), email(e), department(d), location(l), permit(p) {}
 
   string getAttribute1();
   string getAttribute2();
