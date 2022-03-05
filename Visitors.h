@@ -1,4 +1,3 @@
-#include <string>
 #ifndef VISITORS_H_
 #define VISITORS_H_
 
