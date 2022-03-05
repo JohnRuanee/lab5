@@ -7,7 +7,7 @@ using namespace std;
 string Visitors::getName()
 { return name;}
 
-string Visitors::getaddress()
+string Visitors::getAddress()
 { return address;}
 
 string Visitors::getEmail()
