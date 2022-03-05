@@ -19,7 +19,7 @@ class Invoice {
     double getCharge();
     double getPrice();
 
-    double calcTotalPrice(int, int, int);
+    double calcTotalPrice();
 };
 
 #endif
