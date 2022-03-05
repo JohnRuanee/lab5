@@ -33,12 +33,12 @@ int main(){
     Employees customer = Employees();
     discount += 5;
   } else if(input == "student"){
-    Student customer = student();
+    Student customer = Student();
   } else if(input == "visitor"){
     Visitors customer = Visitors();
     serviceCharge += 5;
   } else if(input == "vendor"){
-    Vendor customer = vendor();
+    Vendor customer = Vendor();
     serviceCharge += 10;
   }
 
