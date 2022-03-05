@@ -113,7 +113,7 @@ int main(){
   // Output
   cout << "Invoice " << endl;
   cout << "Name: " << customer.getName() << endl;
-  cout << "Email: " << customer.getEmail(); << endl;
+  cout << "Email: " << customer.getEmail() << endl;
   cout << "Make: " << vehicle.getMake() << endl;
   cout << "Year: " << vehicle.getYear() << endl;
   cout << "Permit Type: " << customer.getPermitType() << endl;
